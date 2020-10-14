@@ -1,0 +1,169 @@
+// this is the Homepage
+
+.masterhead{
+    position: relative;
+    top:0;
+   
+
+    .findjob{
+       position: absolute;
+        top: -33rem;
+        left: 0;
+        margin-left: 16rem;
+        width: 25rem;
+    }
+    .search{
+        direction: rtl;
+        width: 30rem;
+        margin-right: 10rem;
+        position: relative;
+        top: -3rem;
+        
+
+
+        ::placeholder{
+             color: white;   
+            }
+
+        .form-control{
+            border-radius: 0 30px 30px 0 ;
+            background-color: #7E7E7E;
+            color: white;
+            border: 1px solid #7E7E7E;
+            height: 3rem;
+            cursor: pointer;
+            
+            
+        }
+        .input-group-prepend{
+           .btn{
+            border-radius: 30px 0 0 30px;
+            background-color: #7E7E7E;
+            border: none;
+        }  
+        }
+       
+    }
+
+    .searchjob{
+        position: absolute;
+        top: -16rem;
+        width: 25rem;
+    }
+    .headertext{
+        position: absolute;
+        top: -26rem;
+        margin-left: 30px;
+        color: white;
+    }
+}
+
+
+
+
+.section-slider{
+    margin-top: 10rem;
+   .slider-size{
+       width:auto;
+       margin: 0 5rem;
+   }
+
+   .slider-image{
+       height: 30rem;
+       margin: auto;
+   }
+
+    .slick-next:before{
+        color: black;
+    }
+    .slick-prev:before{
+        color: black;
+    }
+}
+
+.section-comp{
+    margin-top:7rem;
+    .back-img{
+        background-image: url("/assets/body-background.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        height: 41rem;
+        position: relative;
+        right: 0;
+        
+        .card{
+           background-color: transparent;
+           border: none;
+           width: 20rem;
+           margin: auto;
+           text-align: center;
+           margin-top: 10rem;
+           font-weight: 800;
+           font-size: 20px;
+           .card-title{
+               padding: 15px 0;
+           }
+           .card-subtitle{
+            padding: 15px 0;
+           }
+        }
+    }
+}
+
+
+.section-person{
+    h3{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    
+    .card{
+        background-color: #5E5E5E;
+        border: none;
+        margin: 4rem;
+        border-radius: 20px;
+        color: white;
+        width: 15rem;
+        height: 25rem;
+        text-align: center;
+        .card-img-top{
+            width: 10rem;
+           
+            margin: 20px auto;
+        }
+    }
+}
+
+
+.section-information{
+
+    margin-top: 20px;
+    text-align: center;
+
+    .aboutus{
+        font-weight: 700;
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 70px;
+    }
+    .infoback2{
+        width: 15rem;
+        margin-top: 5rem;
+    }
+    .infoback1{
+        background-image: url("/assets/info-background.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 33rem;
+        width: 51rem;
+        text-align: right;
+        line-height: 50px;
+        padding-top: 20px;
+        p{
+            width:44rem ;
+            padding-left: 13rem;
+            padding-top: 4rem;
+        }
+    }
+}
