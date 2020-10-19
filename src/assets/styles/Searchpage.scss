@@ -1,0 +1,67 @@
+
+.searchlist{
+    position: relative;
+    top: -6rem;
+    
+}
+
+
+
+.search{
+    direction: rtl;
+    width: 30rem;
+    ::placeholder{
+         color: white;   
+        }
+       
+    .form-control{
+       
+        background-color: #7E7E7E;
+        color: white;
+        border: 1px solid #7E7E7E;
+        height: 3rem;
+        cursor: pointer;
+        border-radius: 0 30px 30px 0 !important;
+        
+        
+    }
+    .input-group-prepend{
+       .btn{
+        border-radius: 30px 0 0 30px !important;
+        background-color: #7E7E7E;
+        border: none;
+    }  
+    }
+   
+}
+.accordion{
+    border-bottom: 1px solid black;
+}
+
+.jobpos{
+    p{
+        font-size: 28px;
+    }
+}
+.jobbox{
+    .card{
+        border: none;
+        background-color: inherit;
+        ;
+        .card-header{
+            background-color: inherit;
+            
+        }
+        .descriptionbox{
+            text-align: right;
+        }
+    }
+    .jobinfo{
+        background-color: #D1D1D1;
+        border-radius: 10px;
+        text-align: right;
+        .card-body{
+            padding:10px
+        }
+    }
+}

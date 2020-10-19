@@ -102,7 +102,7 @@ class Footer extends Component {
                             <Col xs="4"/>
                             <Col xs="4">
                                 <h5 className="mt-3">
-                                    تمامی حقوق این سایت مطعلق به لایتک میباشد &copy;
+                                    تمامی حقوق این سایت متعلق به لایتک میباشد &copy;
                                 </h5>
                             </Col>
                             <Col xs="4"/>

@@ -44,15 +44,15 @@ class Home extends Component{
                                 <img alt="logo" className="findjob" src="/assets/findjob.png"/>
                             </Col>
                             <Col>
-                            <InputGroup className="search">
-                                <Input  placeholder=" جستجو در مشاغل" />
-                                    <InputGroupAddon addonType="prepend">
-                                    <Button >
-                                    <i class="fas fa-search"/>
-                                    </Button>
-                                    </InputGroupAddon>
-                                        
-                            </InputGroup>
+                                <InputGroup className="search">
+                                    <Input  placeholder=" جستجو در مشاغل" />
+                                        <InputGroupAddon addonType="prepend">
+                                        <Button >
+                                        <i class="fas fa-search"/>
+                                        </Button>
+                                        </InputGroupAddon>
+                                            
+                                </InputGroup>
                             </Col>
                         </Row>
                         

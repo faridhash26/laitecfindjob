@@ -21,7 +21,7 @@ import {
 class Header extends Component{
     render() {
         return(
-            <header> 
+            <header className="master-header"> 
                 <Navbar dark expand="md">
                     <Collapse navbar>
                         <Nav className="mr-auto" navbar>
@@ -32,7 +32,7 @@ class Header extends Component{
                                 <Link className="nav-link" to="/">درباره ما</Link>
                             </NavItem>
                             <NavItem>
-                                <Link className="nav-link" to="">آگهی های شغلی</Link>
+                                <Link className="nav-link" to="/search">آگهی های شغلی</Link>
                             </NavItem>
                             <NavItem>
                                 <Link className="nav-link" to="/">ورود/ ثبت نام</Link>
