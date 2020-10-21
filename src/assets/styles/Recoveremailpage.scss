@@ -1,0 +1,52 @@
+.recover-p{
+    
+    height: 20rem;
+    form{
+      position: relative;
+    top: -15rem;  
+    background-color: #ECE8D6;
+    border-radius: 40px;
+    .imgbackground{
+        width: 100%;
+        margin-top: 50px;
+        }
+        p{
+            font-size: 20px;
+        }
+        h5{
+            font-size: 25px;
+        }
+    }
+
+    .form-part{
+        direction: rtl;
+        margin: 0;
+        height: 642px;
+        .alert{
+            width: 350px;
+            border-radius: 20px;
+            margin: 0 auto;
+            text-align: right;
+            direction: rtl;
+        }
+        .alerts{
+            height: 50px;
+        }
+        input{
+            width: 350px;
+            margin:50px auto;
+            border-radius: 20px;
+            border: 0.2px solid #BDBDBD;
+        }
+        .sendtoemail{
+            border-radius: 15px;
+            margin-top: 10px;
+            width: 200px;
+        }
+        .col-sm-6{
+            text-align: right ;
+        }
+    }
+        
+    
+}

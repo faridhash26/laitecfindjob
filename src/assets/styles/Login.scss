@@ -1,0 +1,54 @@
+.login-p{
+    
+    height: 20rem;
+    form{
+      position: relative;
+    top: -15rem;  
+    
+    }
+
+    .pic-part{
+        margin: 0;
+        background-image: url("/assets/Forgot-password.png");
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        img{
+            position: absolute;
+            right:-2px;
+        }
+    }
+    .form-part{
+        background-color: #ECE8D6;
+        border-radius: 0 40px 40px 0;
+        direction: rtl;
+        margin: 0;
+        height: 642px;
+        .alert{
+            width: 350px;
+            border-radius: 20px;
+            margin: 0 auto;
+            text-align: right;
+            direction: rtl;
+        }
+        .alerts{
+            height: 50px;
+        }
+        input{
+            width: 350px;
+            margin:50px auto;
+            border-radius: 20px;
+            border: 0.2px solid #BDBDBD;
+        }
+        .enter{
+            border-radius: 15px;
+            margin-top: 10px;
+            width: 100px;
+        }
+        .col-sm-6{
+            text-align: right ;
+        }
+    }
+        
+    
+}

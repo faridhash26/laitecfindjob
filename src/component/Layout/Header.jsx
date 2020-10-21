@@ -35,7 +35,7 @@ class Header extends Component{
                                 <Link className="nav-link" to="/search">آگهی های شغلی</Link>
                             </NavItem>
                             <NavItem>
-                                <Link className="nav-link" to="/">ورود/ ثبت نام</Link>
+                                <Link className="nav-link" to="/register">ورود/ ثبت نام</Link>
                             </NavItem>
                         </Nav>
                     </Collapse>

@@ -66,7 +66,7 @@ class Search extends Component{
                 </Row>
                 <Row className="mt-5">
                     <Col sm="5"/>
-                    <Col sm="2">
+                    <Col sm="2" className="mt-5">
                         <PaginationComponent/>
                     </Col>
                     <Col sm="5"/>

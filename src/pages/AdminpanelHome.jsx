@@ -1,28 +1,10 @@
 import React, { Component } from 'react';
 import {
-    Container,
-    Card,
-    CardHeader,
-    ButtonDropdown,
-    DropdownToggle,
-    DropdownMenu, 
-    DropdownItem,
-    Dropdown,
     Button,
-    Modal, 
-    ModalHeader, 
-    ModalBody, 
-    ModalFooter,
     Row,
-    Col,
-    Collapse,
-    CardBody,
-    InputGroup, 
-    InputGroupAddon, 
-    Input,
-    InputGroupText,
-
+    Col
 }from "reactstrap";
+
 import InformToggle from '../component/common/admincomps/InformToggle';
 
 
