@@ -70,7 +70,7 @@ class Login extends Component{
                                         <p>رمز عبور را فراموش کرده اید؟</p>
                                     </Col>
                                     <Col sm="6" >
-                                        <Link to="/register">
+                                        <Link to="/recover">
                                         بازیابی رمز عبور
                                         </Link>
                                     </Col>
